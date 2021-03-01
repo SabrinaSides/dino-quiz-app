@@ -1,0 +1,105 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Stick&display=swap');
+
+body {
+ background: url('image/dinoBackground.jpg') no-repeat center center fixed;
+ background-size: cover;
+ background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  padding: 40px 10px 5px 10px;
+  font-family: 'Stick', sans-serif, 'Arial', sans-serif;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h2, h3{
+  padding-bottom: 0px;
+}
+
+h2, h3, p, button{
+  font-family: 'Noto Sans JP', sans-serif, 'Arial', sans-serif;
+  }
+
+p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+
+button{
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 10px 20px;
+  width: 65%;
+  margin: auto;
+  outline-style: solid;
+  outline-color: green;
+  background-color: rgb(209, 245, 176);
+  opacity: 0.95;
+  min-width: 50%;
+}
+
+fieldset {
+    border: 0;
+}
+
+/*radio title*/
+form input[type="radio"] + label {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'Noto Sans JP', sans-serif, 'Arial' sans-serif;
+}
+
+/*radio buttons*/
+form input[type="radio"] {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#js-next-btn{
+  display: none;
+}
+
+// Desktop Compatibility
+
+@media all and (min-width: 700px) {
+    width: max-content;
+    margin: 0 auto;
+  }
