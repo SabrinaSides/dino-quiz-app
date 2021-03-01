@@ -99,5 +99,5 @@ form input[type="radio"] {
 
 @media all and (min-width: 700px) {
     width: max-content;
-    margin: 0 auto;
+    margin: 50px auto;
   }
