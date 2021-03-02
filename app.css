@@ -19,7 +19,7 @@ h1 {
   text-align: center;
   color: green;
   padding: 40px 10px 5px 10px;
-  font-family: 'Stick', sans-serif, 'Arial', sans-serif;
+  font-family: 'Stick', sans-serif;
   font-size: 80px;
 }
 
@@ -29,7 +29,7 @@ h2 {
 }
 
 h2, h3, p, button{
-  font-family: 'Noto Sans JP', sans-serif, 'Arial', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
   }
@@ -82,13 +82,12 @@ form input[type="radio"] + label {
   color: #000;
   font-size: 18px;
   margin-bottom: 10px;
-  font-family: 'Noto Sans JP', sans-serif, 'Arial' sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /*radio buttons*/
 form input[type="radio"] {
-  font-size: 18px;
-  margin-bottom: 15px;
+  font-size: 22px;
 }
 
 #js-next-btn{
