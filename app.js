@@ -103,19 +103,19 @@ function generateQuestionPage() {
           <legend><h2>${currentQuestion.question}</h2></legend>
         <ul>
           <li> 
-            <input type='radio' name='answers' id='answer' value='${currentQuestion.answers[0]}' required></input>
+            <input type='radio' name='answers' id='answer1' value='${currentQuestion.answers[0]}' required></input>
             <label for='answer'>${currentQuestion.answers[0]}</label>
           </li>
           <li> 
-            <input type='radio' name='answers' id='answer' value='${currentQuestion.answers[1]}'></input>
+            <input type='radio' name='answers' id='answer2' value='${currentQuestion.answers[1]}'></input>
             <label for='answer'>${currentQuestion.answers[1]}</label>
           </li>
           <li> 
-            <input type='radio' name='answers' id='answer' value='${currentQuestion.answers[2]}'></input>
+            <input type='radio' name='answers' id='answer3' value='${currentQuestion.answers[2]}'></input>
             <label for='answer'>${currentQuestion.answers[2]}</label>
           </li>
           <li> 
-            <input type='radio' name='answers' id='answer' value='${currentQuestion.answers[3]}'></input>
+            <input type='radio' name='answers' id='answer4' value='${currentQuestion.answers[3]}'></input>
             <label for='answer'>${currentQuestion.answers[3]}</label>
           </li>
         </ol>
